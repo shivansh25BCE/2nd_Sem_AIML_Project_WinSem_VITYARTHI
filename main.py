@@ -19,7 +19,9 @@ data = {'sample': ['Hi dad, where are you?',
                    'Congratulations! You won!',
                    'Claim your $1000 prize',
                    'New Assignment Posted!'],
+        
         'check': [0,1,1,0,1,0,1,0,0,1] }
+
 df = pd.DataFrame(data)
 
 X_train, X_test, y_train, y_test = train_test_split(df['sample'], df['check'], test_size=0.3, random_state=20)
