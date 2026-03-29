@@ -18,9 +18,10 @@ data = {'sample': ['Hi dad, where are you?',
                    'Assignment is due today!',
                    'Congratulations! You won!',
                    'Claim your $1000 prize',
-                   'New Assignment Posted!'],
+                   'New Assignment Posted!',
+                   '"Double your income today!'],
         
-        'check': [0,1,1,0,1,0,1,0,0,1] }
+        'check': [0,1,1,0,1,0,1,0,0,1,0] }
 
 df = pd.DataFrame(data)
 
