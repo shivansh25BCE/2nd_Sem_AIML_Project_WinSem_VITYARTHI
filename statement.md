@@ -5,7 +5,7 @@ People not able to distinguish between spam/scam mails and actual factual mails 
 This project allows the user to input the subject of the mail and know if the mail is scam or not. It gives the output with high accuracy.
 
 # Target Users
-Users having difficulty in distinguishing between scam and actual mails.
+Users having difficulty in distinguishing between scam and actual mails. Preferentially targeting the older age group.
 
 # High Level Features
 1. Training a MultinomialNB model
